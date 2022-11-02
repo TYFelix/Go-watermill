@@ -34,31 +34,3 @@ an error. What happens next is up to the middlewares you've chosen.
 * **Extendable** with middlewares and plugins.
 * **Resillient** - using proven technologies and passing stress tests *(results coming soon)*.
 
-## Dependencies
-
-Watermill uses the [confluent-kafka-go](https://github.com/confluentinc/confluent-kafka-go) as Apache Kafka
-client, which depends on [librdkafka](https://github.com/edenhill/librdkafka), so you will need it installed.
-
-For local development, you can use [golang-librdkafka](https://hub.docker.com/r/threedotslabs/golang-librdkafka/) docker image.
-
-## Examples
-
-* [Your first app](_examples/your-first-app) - start here!
-* [HTTP to Kafka](_examples/http-to-kafka)
-* [Simple application with published and subscriber](_examples/simple-app)
-
-## Contributing
-
-All contributions are very much welcome. If you'd like to help with Watermill development,
-please see [open issues](https://github.com/ThreeDotsLabs/watermill/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+)
-and submit your pull request via GitHub.
-
-Join us on the `#watermill` channel on the Gophers slack: https://gophersinvite.herokuapp.com/
-
-## Why the name?
-
-It processes streams!
-
-## License
-
-[MIT License](./LICENSE)
